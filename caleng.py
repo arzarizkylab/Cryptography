@@ -81,8 +81,8 @@ print ("Hasil Decrypt: " + decrypt(text,key))
 print("-------------------------------------------")
 print("-----------Dekrip & Enkrip ROT13-----------")
 
-arzarizky = str.maketrans('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789',
-'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm5678901234')
+arzarizky = str.maketrans('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&()*+,-./:;<=>?@[\]^_`{|}~',
+'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm5678901234<=>?@[\]^_`{|}~!#$%&()*+,-./:;')
 # Function to translate plain text
 def rot13(text):
     return text.translate(arzarizky)
