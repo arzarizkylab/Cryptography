@@ -1,0 +1,8 @@
+// Ini pekerjaan Arza Rizky Nova Ramadhani XIIT4 
+{
+"editor.fontSize": 18,
+"workbench.colorTheme": "Noctis Minimus",
+"workbench.iconTheme": "vscode-icons",
+"python.formatting.provider": "autopep8"
+
+}
